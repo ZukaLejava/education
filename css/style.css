@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	margin-bottom: 50px;
+}
+
+article {
+	margin-bottom: 30px;
+}
+
+footer {
+	min-height: 80px;
+}
+
+.responsive-img > img {
+	max-width: 100%;
+}
+
+.responsive-img {
+	background-color: lightgray;
+	padding: 10px;
+}
+
+.coursestitle {
+	text-align: center;
+	color: gray;
+	margin-bottom: 15px;
+}
+
+
+.absolute {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(0, 100, 0, 0.25);
+}
+.absolute > h2,p {
+	margin-top: 20%;
+}
+
+.mainsection {
+	position: relative;
+    text-align: center;
+    color: white;
+	overflow: hidden;
+}
+
+.headermain {
+	min-height: 40px;
+	box-sizing: border-box;
+}
+
+.logopart {
+	text-align: left;
+	padding: 15px;
+	margin-left: 10px;
+}
+
+.navbarNav {
+	margin-left: 10px !important;
+}
+
+.social-item {
+	text-decoration: none;
+	color: white;
+}
+
+.input-group {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.navbar-nav {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.navpart {
+	margin-right: 15px;
+}
+
+.logopart {
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+	.absolute {
+		width: 100%;
+	}
+}
+
+
